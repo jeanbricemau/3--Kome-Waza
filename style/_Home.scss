@@ -1,0 +1,25 @@
+#Home{
+    padding:  0px  300px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 30vh;
+    .imgHeader{
+        width: 100vw;
+        height: auto;
+    }
+    .imgEpices{
+        width: 25vw;
+    }
+    article{
+        // align-self: ;
+        text-align: end;
+        width: fit-content;
+        height: fit-content;
+      
+        p{
+            max-width: 400px;
+        }
+    }
+}
